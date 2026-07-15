@@ -16,4 +16,4 @@ The project demonstrates the integration of RF hardware, embedded systems, wirel
 * Python desktop dashboard for monitoring and visualization
 * RF experimentation using Vivaldi antennas, an NI USRP N210, and spectrum-analysis equipment
 
-![RIS setup with controller]([docs/images/ris-system-architecture.png](https://github.com/adithyakalhan15/Low-cost-RIS-controller/blob/main/Images/IMG-20260708-WA0007.jpeg))
+![RIS setup with controller](https://github.com/adithyakalhan15/Low-cost-RIS-controller/blob/main/Images/IMG-20260708-WA0007.jpeg)
