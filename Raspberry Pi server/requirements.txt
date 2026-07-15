@@ -1,0 +1,4 @@
+numpy
+onnxruntime
+pyserial
+RPi.GPIO

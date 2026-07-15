@@ -1,0 +1,48 @@
+APP_TITLE = "RIS Smart Controller — Tabbed Master Dashboard"
+APP_GEOMETRY = "1500x900"
+
+DEFAULT_PI_IP = "192.168.1.50"
+DEFAULT_PI_PORT = 5050
+
+# Actual fabricated/demo panel: 4 rows × 6 columns = 24 cells
+RIS_ROWS = 4
+RIS_COLS = 6
+RIS_ELEMENTS = RIS_ROWS * RIS_COLS
+
+# Driver/shift-register stream: each 6-cell row gets 2 dummy bits, total 32 transmitted bits
+WIRE_BITS_PER_ROW = 8
+GARBAGE_BITS_PER_ROW = 2
+WIRE_BITS_TOTAL = RIS_ROWS * WIRE_BITS_PER_ROW
+
+ROOM_X_MIN = -3.0
+ROOM_X_MAX = 6.0
+ROOM_Y_MIN = -1.0
+ROOM_Y_MAX = 7.0
+ROOM_Z_MIN = 0.0
+ROOM_Z_MAX = 3.0
+
+RIS_POSITION = (0.0, 0.0, 1.5)
+TX_POSITION = (-1.8, 3.0, 1.4)
+RX_HEIGHT = 1.2
+
+MAX_HISTORY_POINTS = 180
+SIMULATION_INTERVAL_MS = 650
+
+# Dark theme colors
+C_BG = "#060A12"
+C_PANEL = "#0C1220"
+C_PANEL_2 = "#111827"
+C_CARD = "#111A2C"
+C_CARD_2 = "#162033"
+C_BORDER = "#263449"
+C_TEXT = "#E5EEF9"
+C_MUTED = "#8EA0B8"
+C_ACCENT = "#38BDF8"
+C_GREEN = "#22C55E"
+C_YELLOW = "#F59E0B"
+C_RED = "#EF4444"
+C_PURPLE = "#A855F7"
+C_BLUE = "#3B82F6"
+C_CYAN = "#06B6D4"
+C_OFF = "#1E293B"
+C_ON_TEXT = "#04130A"
